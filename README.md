@@ -7,7 +7,7 @@
 
 #### image from the repository
 
-<img src="calendar.png" alt="calendar" width="300"/>
+<img src="calendar.png" alt="calendar" width="293"/>
 
 
 
