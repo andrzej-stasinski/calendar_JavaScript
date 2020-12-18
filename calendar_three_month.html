@@ -8,10 +8,14 @@
 		background-color: #fff;
 		font-size: 16px;
 	}
-	#kal {
+	.title {
+		text-align: center;
+	}
+	.kal {
 		border: 1px solid #aaa;
 		padding: 0;
 		background-color: #fff;
+		margin: 0 auto;
 	}
 	table {
 	   border: 1px solid black;
@@ -26,8 +30,11 @@
 
 </head>
 <body>
-	<h3>Calendar three months</h3>
-	<div id="kal"></div>
+	<div class="wrapper">
+		<h3 class='title'>Calendar three months</h3>
+		<div id="kal" class='kal'></div>		
+	</div>
+
 	<script src="script_three.js"></script>
 </body>
 </html>

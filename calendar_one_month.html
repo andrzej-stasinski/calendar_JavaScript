@@ -7,11 +7,13 @@
 	body {
 		background-color: #f7f7f7;
 	}
-	#kal {
+	.title {
+		text-align: center;
+	}
+	.kal {
 		border: 2px solid #bbb;
 		padding: 0;
-		/*background-color: tan;*/
-
+		margin: 0 auto;
 	}
 	table {
 	   border: 1px solid black;
@@ -26,9 +28,11 @@
 
 </head>
 <body>
-	<h3>Calendar one month</h3>
-	<div id="kal"></div>
-	<script src="script_one.js"></script>
+	<div class="wrapper">
+		<h3 class='title'>Calendar one month</h3>
+		<div id="kal" class='kal'></div>
+		<script src="script_one.js"></script>		
+	</div>
 </body>
 </html>
 
